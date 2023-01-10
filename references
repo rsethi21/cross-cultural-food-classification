@@ -1,0 +1,11 @@
+GOAL: create a dynamic model; can't learn all labels, but can make a learner that can classify and predict meaningful food statistics with some basic support
+
+1. Hierarchical deep learning models using transfer learning for disease detection and classification based on small number of medical images
+	- https://www.nature.com/articles/s41598-021-83503-7
+	- HDL and TL to reduce number of images needed to train models
+
+
+2. Zero-shot/Few-shot learning
+	- https://towardsdatascience.com/zero-and-few-shot-learning-c08e145dc4ed
+	- play around with idea of shots and ways in support sets
+	- goal is perhaps to use support set/support label concept until enough minimum images built for overall model
