@@ -9,3 +9,6 @@ GOAL: create a dynamic model; can't learn all labels, but can make a learner tha
 	- https://towardsdatascience.com/zero-and-few-shot-learning-c08e145dc4ed
 	- play around with idea of shots and ways in support sets
 	- goal is perhaps to use support set/support label concept until enough minimum images built for overall model
+
+3. Good resource to use TL in TF:
+	- https://neptune.ai/blog/transfer-learning-guide-examples-for-images-and-text-in-keras
