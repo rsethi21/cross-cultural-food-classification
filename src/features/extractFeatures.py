@@ -1,5 +1,23 @@
 # import TF library with pretrained CNNs
 
-# function with arguments like what CNN wanting to use, preprocessed images directory, output feature directory
+# function for command line arguments using argparse
 
+# function with arguments like what CNN wanting to use, preprocessed images directory, output feature directory
+def featureExtraction(imageDirectoryPath, outputDirectoryPath, CNN = 'MobileNet', weights='imagenet'):
+    '''
+    Function: 
+    - This function will convert images to feature vectors using a CNN architecture and weights of your choice.
+    Required Arguments:
+    - imageDirectoryPath = 'PATH TO PREPROCESSED IMAGES'
+    - outputDirectoryPath = 'OUTPUT PATH'
+    Optional Arguments:
+    - CNN = 'NAME OF CNN'
+        + The following are supported: 'MobileNet', 'ImageNet', ...
+        + By default will use MobileNet
+    - weights = 'NAME OF DATASET'
+        + The following are supported: 'imagenet', ...
+        + By default will use imagenet
+    '''
     # execute function to save feature vectors into the output directory as a TFRecords file
+if __main__ == :
+    print(featureExtraction.__doc__)
