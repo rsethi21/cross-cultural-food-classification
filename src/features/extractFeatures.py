@@ -4,6 +4,8 @@
     # use argparse for this; maybe import a separate module
 
 # function with arguments like what CNN wanting to use, preprocessed images directory, output feature directory
+import argument
+
 def featureExtraction(imageDirectoryPath, outputDirectoryPath, CNN = 'MobileNet', weights='imagenet'):
     '''
     Function: 
